@@ -7,7 +7,7 @@ int main(int argc, char **argv)
     if (argc != 2)
     {
         fprintf(stderr, "the command should be \"./main index_number\". \
-        \n index_number represents an index number of your camera.\"");
+        \n index_number represents an index number of your camera.\n");
         return -1;
     }
     int camIndex = std::atoi(argv[1]);
